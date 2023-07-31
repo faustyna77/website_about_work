@@ -1,0 +1,246 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+
+
+body
+
+{
+
+    background-color: rgb(25, 23, 23);
+}
+
+
+.header
+{
+    background-image: url('img/remote640.jpg');
+    background-position: center;
+   
+    height:400px;
+  
+    
+  
+    
+    
+    
+}
+
+.header-text{
+    position:absolute;
+    top:30%;
+    left:40%;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%,-50%);
+     transition: color,0.8s;
+     
+}
+.header-text :hover{
+    color:rgb(118, 239, 229);
+   
+}
+.header-text span{
+    font-weight: bold;
+    color: beige;
+    text-transform: uppercase;
+    position:relative
+}
+
+.navitem
+{
+  display:inline-block;
+  color:rgb(235, 27, 27);
+  text-align: center;
+ 
+  left:30%;
+  
+  margin-top:35px;
+  background-color: rgb(25, 23, 23);
+  height: 15px;
+  position: fixed;
+
+
+
+  
+}
+.navitem a{
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:rgb(156, 156, 217);
+}
+.navitem :hover{
+
+    color:rgb(134, 222, 204);
+}
+
+.btn
+{
+   left:90%;
+   top:20px;
+   position:absolute;
+   padding: 20 30px;
+   font-size: 30px;
+   cursor: pointer;
+   background-color:rgb(62, 59, 59);
+   
+}
+.about
+{
+    background-image: url('img/macro640.jpg');
+    height:600px;
+     background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.7);
+
+}
+.about-bg
+{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.about h1,p{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(236, 227, 227);
+    padding: 10px 0 0 0;
+}
+.products
+{
+    background-image: url('img/remote640.jpg');
+    height:450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:black;
+
+}
+
+
+.ourteam
+{
+    color:aliceblue;
+    
+    text-align: center;
+    color:black;
+
+
+}
+.ourteam p{
+    color:black;
+    font-weight: bold;
+}
+
+.services
+{
+   text-align: center;
+   
+   background-image: url('img/electronics-gf42071eac_640.jpg');
+   height:450px;
+   color:black;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.services p{
+    color:black;
+    font-weight: bold;
+}
+.rewards
+{
+    background-image: url('img/trophy.jpg');
+    height: 450px;
+    color:black;
+    background-repeat: no-repeat;
+   
+    text-align: center;
+    background-size: cover;
+   
+    background-attachment: fixed;
+}
+.rewards p{
+    color:black;
+    font-weight: bold;
+    
+
+}
+
+.footer
+{
+    height:100px;
+    color:azure;
+    text-align: center;
+    background-color: rgba(243, 243, 235, 0.5);
+    margin-top: 10px;
+}
+.footer-bg
+{
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+}
+.footer span{
+    color:blue;
+    font-size: 30px;
+}
+@media (min-width:300px)
+{
+
+    .navitem{
+        display:none;
+    }
+    .header{
+        background-image: url('img/technolgy640.jpg');
+    }
+    .products
+    {
+        background-image: url('img/remote640.jpg');
+    }
+    .services
+    {
+        background-image: url('img/electronics640.jpg');
+    }
+    .rewards
+    {
+
+        background-image: url('img/trophy.jpg');
+    }
+}
+
+
+@media (min-width:600px)
+{
+    .btn{
+        display:none;
+    }
+    .navitem
+    {
+        display:inline-block;
+    }
+    .header
+    {
+        background-image: url('img/technology_1920.jpg');
+    }
+    .products
+    {
+        background-image: url('img/remote-control-g43b67fa0f_1920.jpg');
+    }
+    .about
+    {
+        background-image: url('img/macro-g1a82efd51_1920.jpg');
+    }
+    
+    .services
+    {
+        background-image: url('img/electronics1920.jpg');
+    }
+    .rewards
+    {
+        background-image: url('img/trophy_1920.jpg');
+    }
+}
+
